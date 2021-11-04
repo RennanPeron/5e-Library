@@ -21,6 +21,8 @@ a{
     color: var(--grey);
 }
 
+/* Navegação */
+
 .container {
     display: flex;
     align-items: center;
