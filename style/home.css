@@ -1,18 +1,50 @@
+.container {
+    background-image: linear-gradient(to right, rgba(0,0,0,0.9),rgba(255,255,255, 0.1),rgba(255,255,255, 0.1) ), url("../img/capa-house.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
 .main-title {
-   background: linear-gradient(to right, rgba(0,0,0,0.9),rgba(255,255,255, 0.1),rgba(255,255,255, 0.1)), url("../img/capa-house.jpg");
-   height: 400px;
-   background-size: cover;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: flex-start;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 48px;
+}
+
+.main-info {
+    width: 448px;
 }
 
 .title {
     font-size: 40px;
+    margin-top: 20px;
     margin-bottom: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .description {
     margin-bottom: 40px;
+}
+
+.btn {
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 16px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn i {
+    margin-right: 8px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.4s;
 }
