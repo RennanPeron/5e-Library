@@ -67,12 +67,9 @@
     display: flex;
 }
 
-.on-slide {
-    margin-left: -48px;
-}
-
 .shows {
-    width: 15vw;
+    /* width: 15vw; */
+    width: 295px;
     height: 165px;
     margin-right: 5px;
 }

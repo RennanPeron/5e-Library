@@ -6,13 +6,13 @@ $('.owl-carousel').owlCarousel({
     slideTransition: 'ease-in',
     responsive:{
         0:{
-            items:1
+            items:2
         },
-        600:{
-            items:3
+        768:{
+            items:4
         },
         1000:{
-            items:5
+            items:6
         }
     }
 })
