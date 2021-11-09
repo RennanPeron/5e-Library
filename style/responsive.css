@@ -1,13 +1,13 @@
 @media (max-width: 768px) {    
     /*  header  */
     .logo {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .nav-bar{
-        font-size: 12px;
-        padding: 0 14px;
-        width: 100vw;
+        font-size: 10px;
+        padding: 0 12px;
+        /* width: 120px; */
     }
 
     nav a {
@@ -15,13 +15,17 @@
     }
 
     /* main title */
+    .container {
+        height: 30vh;
+        padding-left: 12px;
+    }
+
     .main-title{
-    margin: 0 12px; 
+        margin: 0;
     }
 
     .description {
-        width: 30%;
-        font-size: 10px;
+        display: none;
     }
 
     .title {
@@ -33,15 +37,24 @@
         padding: 6px 15px;
         font-size: 8px;
         margin-right: 8px;
+        margin-top: 15px;
     }
 
     /* recomendations */
-    .content-row{
-        margin: 0;
+    section{
+        margin-top: 23vh;
+    }
+
+    .content-row {
+        margin: 25px 12px 25px 0;
     }
 
     .shows {
-        width: 55vw;
-        height: 15vh;
+        width: 44vw;
+        height: 12vh;
+    }
+
+    img {
+        border-radius: 4px;
     }
 }

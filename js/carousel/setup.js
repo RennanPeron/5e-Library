@@ -5,11 +5,8 @@ $('.owl-carousel').owlCarousel({
     autoWidth: true,
     slideTransition: 'ease-in',
     responsive:{
-        0:{
-            items:2
-        },
         768:{
-            items:4
+            items:3
         },
         1000:{
             items:6
