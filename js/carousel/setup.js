@@ -2,6 +2,7 @@ $('.owl-carousel').owlCarousel({
     loop:true,
     margin:0,
     nav:false,
+    dots:false,
     autoWidth: true,
     slideTransition: 'ease-in',
     responsive:{

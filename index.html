@@ -4,85 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/home.css">
 
-    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
+
     <!-- carousel -->
-    <link rel="stylesheet" href="style/carousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="style/carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/carousel/owl.theme.default.min.css">
     <title>Netflix Clone</title>
 </head>
 <body>
-    <header class="nav-bar">
-        <h2 class="logo">NETFLIX</h2>
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Séries</a>
+    <header>
+        <h1 id="logo">Netflix</h1>
+        <div id="nav-bar">
+            <a href="#">Home</a>
             <a href="#">Filmes</a>
-            <a href="#">Documentários</a>
-        </nav>
-</header>
-    <div class="container">
-        
-        <main class="main-title">
-            <div class="main-info">
-                <h3 class="title">House of Cards</h3>
-                <p class="description">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro.</p>
-                <div class="main-btn">
-                   <button class="btn"><i class="fas fa-play"></i>Assistir Agora</button>                            
-                   <button class="btn"><i class="fas fa-info-circle"></i>Mais Informações</button>
+            <a href="#">Séries</a>
+            <a href="3">Documentários</a>
+        </div>
+    </header>
+    <div id="container">
+        <div class="main-title">
+            <h2>Titulo</h2>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam commodi vero odio ad perspiciatis assumenda veritatis eos, dolore temporibus quis vel consequuntur adipisci, dolorum soluta aliquam excepturi laudantium aperiam asperiores.</p>
+            <div class="btn-row">
+                <button class="btn-1"><i class="fas fa-play"></i> Assistir</button>
+                <button class="btn-2"><i class="fas fa-info-circle"></i> Informações</button>
+            </div>
+        </div>
+        <div class="recomendations">
+            <div class="content-row">
+                <h3>Em Alta</h3>
+                <div class="owl-carousel owl-theme shows">
+                    <div class="windows"><img class="cover" src="img/mini1.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini2.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini3.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini4.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini5.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini6.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini7.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini8.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini9.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini10.jpg" alt=""></div>
                 </div>
-            </div>   
-        </main>  
+            </div>
+            <div class="content-row">
+                <h3>Recomendado</h3>
+                <div class="owl-carousel owl-theme shows">
+                    <div class="windows"><img class="cover" src="img/mini1.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini2.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini3.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini4.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini5.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini6.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini7.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini8.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini9.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini10.jpg" alt=""></div>
+                </div>
+            </div>
+            <div class="content-row">
+                <h3>Continuar Assistindo</h3>
+                <div class="owl-carousel owl-theme shows">
+                    <div class="windows"><img class="cover" src="img/mini1.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini2.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini3.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini4.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini5.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini6.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini7.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini8.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini9.jpg" alt=""></div>
+                    <div class="windows"><img class="cover" src="img/mini10.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
     </div>
-    <section>
-        <div class="content-row">
-            <h4>Populares</h4>
-            <div class="owl-carousel owl-theme recomendations">
-                <div class="shows"><img src="img/mini1.jpg" alt="mini"></div>
-                <div class="shows"><img src="img/mini2.jpg" alt="mini"></div>
-                <div class="shows"><img src="img/mini3.jpg" alt="mini"></div>
-                <div class="shows"><img src="img/mini4.jpg" alt="mini"></div>
-                <div class="shows"><img src="img/mini5.jpg" alt="mini"></div>
-                <div class="shows"><img src="img/mini6.jpg" alt="mini"></div>
-                <div class="shows"><img src="img/mini7.jpg" alt="mini"></div>
-                <div class="shows"><img src="img/mini8.jpg" alt="mini"></div>
-                <div class="shows"><img src="img/mini9.jpg" alt="mini"></div>
-                <div class="shows"><img src="img/mini10.jpg" alt="mini"></div>
-            </div>
-        </div>
-        <div class="content-row">
-            <h4>Em alta</h4>
-            <div class="owl-carousel owl-theme recomendations">
-                <div class="shows"><img src="/img/mini1.jpg" alt="mini"></div>
-                <div class="shows"><img src="/img/mini2.jpg" alt="mini"></div>
-                <div class="shows"><img src="/img/mini3.jpg" alt="mini"></div>
-                <div class="shows"><img src="/img/mini4.jpg" alt="mini"></div>
-                <div class="shows"><img src="/img/mini5.jpg" alt="mini"></div>
-                <div class="shows"><img src="/img/mini6.jpg" alt="mini"></div>
-                <div class="shows"><img src="/img/mini7.jpg" alt="mini"></div>
-                <div class="shows"><img src="/img/mini8.jpg" alt="mini"></div>
-                <div class="shows"><img src="/img/mini9.jpg" alt="mini"></div>
-                <div class="shows"><img src="/img/mini10.jpg" alt="mini"></div>
-            </div>
-        </div>
-        <div class="content-row">
-            <h4>Continuar Assistindo</h4>
-            <div class="owl-carousel owl-theme recomendations">
-                <div class="shows"><img src="/img/mini1.jpg" alt="mini"></div>
-                <div class="shows"><img src="/img/mini2.jpg" alt="mini"></div>
-                <div class="shows"><img src="/img/mini3.jpg" alt="mini"></div>
-                <div class="shows"><img src="/img/mini4.jpg" alt="mini"></div>
-                <div class="shows"><img src="/img/mini5.jpg" alt="mini"></div>
-                <div class="shows"><img src="/img/mini6.jpg" alt="mini"></div>
-                <div class="shows"><img src="/img/mini7.jpg" alt="mini"></div>
-                <div class="shows"><img src="/img/mini8.jpg" alt="mini"></div>
-                <div class="shows"><img src="/img/mini9.jpg" alt="mini"></div>
-                <div class="shows"><img src="/img/mini10.jpg" alt="mini"></div>
-            </div>
-        </div>
-    </section>
+
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/3b7d16f77a.js" crossorigin="anonymous"></script>
     <!-- Carousel -->
