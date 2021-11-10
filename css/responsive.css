@@ -1,0 +1,156 @@
+@media (min-width: 768px) and (max-width: 979px) {
+    /* Cabeçalho */
+    header {
+        height: 3.2rem;
+        padding: 0 1.8rem;
+    }
+
+    #logo {
+        font-size: 2.8rem;
+    }
+
+    #nav-bar {
+        font-size: 1.4rem;
+    }  
+
+    #nav-bar a {
+        margin-right: 0.8rem;
+    }
+
+    /* Titulo Principal */
+    .main-title {
+        height: 65vh;
+        padding: 3.2rem 1.8rem 0;
+    }
+
+    .description {
+        width: 60%;
+        font-size: 1.4rem;
+        margin-top: 0.6rem;
+    }
+    
+    .btn-row {
+        margin-top: 1.6rem;
+    }
+
+    button {
+        padding: 1.2rem 2.8rem;
+        font-size: 1.2rem;
+        margin-right: 1.2rem;
+    }
+
+    /* Recomendações */
+    .recomendations {
+        padding: 0 1.8rem;
+    }
+    
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    .windows {
+        width: 38vw;
+        height: 20vw;
+    }
+}
+
+@media (min-width: 980px) {
+    /* Cabeçalho */
+    header {
+        height: 3.8rem;
+        padding: 0 3.2rem;
+    }
+
+    #logo {
+        font-size: 3.4rem;
+    }
+
+    #nav-bar {
+        font-size: 1.8rem;
+    } 
+
+    #nav-bar a {
+        margin-right: 0.8rem;
+    }
+
+    /* Titulo Principal */
+    .main-title {
+        height: 65vh;
+        padding: 3.8rem 3.2rem 0;
+    }
+
+    h2 {
+        font-size: 4.6rem;
+    }
+
+    .description {
+        width: 60%;
+        font-size: 1.6rem;
+        margin-top: 0.6rem;
+    }
+    
+    .btn-row {
+        margin-top: 2.4rem;
+    }
+
+    button {
+        padding: 1.6rem 3.2rem;
+        font-size: 1.6rem;
+        margin-right: 1.6rem;
+    }
+
+    /* Recomendações */
+    .recomendations {
+        padding: 0 3.2rem;
+        margin-top: -4rem;
+    }
+    
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    .windows {
+        width: 38vw;
+        height: 20vw;
+        margin-right: 0.8rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    header {
+        padding: 0 3.8rem;
+    }
+
+    .main-title {
+        padding: 3.8rem 3.8rem 0;
+        height: 90vh;
+    }
+
+    h2{
+        font-size: 6rem;
+    }
+
+    .description {
+        font-size: 2rem;
+    }
+
+    button {
+        padding: 1.6rem 3.8rem;
+        font-size: 2rem;
+    }
+
+    .recomendations {
+        padding: 0 3.8rem;
+        margin-top: -6rem;
+    }
+    
+    h3 {
+        font-size: 2.6rem;
+    }
+
+    .windows {
+        width: 50rem;
+        height: 27.5rem;
+        margin-right: 0.8rem;
+    }
+}

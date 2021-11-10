@@ -12,7 +12,7 @@
     justify-content: center;
     height: 35vh;
     padding: 2.8rem 1.2rem 0;
-    background-image: linear-gradient(to top, #141414, rgba(0,0,0,0.3), rgba(0,0,0,0.3), rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../img/capa-house.jpg");
+    background-image: linear-gradient(to top, var(--black), rgba(0,0,0,0.3), rgba(0,0,0,0.3), rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../img/capa-house.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
