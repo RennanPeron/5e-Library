@@ -2,9 +2,9 @@
     --red: #e50914;
     --black: #141414;
     --grey: #AAA;
-    --btnHover: rgb(184, 184, 187);
-    --btn2Color: rgba(109, 109, 110, 0.7);
-    --bt2Hover: rgba(109, 109, 110, 0.5);
+    --btnHover: rgba(255, 255, 255, 0.6);
+    --btn2Color: rgba(109, 109, 110, 0.8);
+    --btn2Hover: rgba(109, 109, 110, 0.4);
 
     font-size: 62.5%;
 }
@@ -23,14 +23,22 @@ body{
 }
 
 header {
-    position: fixed;
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 0 1.2rem;
     align-items: center;
-    height: 2.8rem;
+    height: 3.6rem;
     background: linear-gradient(to bottom, var(--black),rgba(0,0,0,0.5), rgba(255,255,255,0));
+}
+
+.sticky {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+    background-color: var(--black);
 }
 
 #logo {
