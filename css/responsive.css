@@ -23,6 +23,10 @@
         padding: 3.2rem 1.8rem 0;
     }
 
+    h2{
+        height: 9rem;
+    }
+
     .description {
         width: 60%;
         font-size: 1.4rem;
@@ -80,7 +84,9 @@
     }
 
     h2 {
-        font-size: 4.6rem;
+        background-image: url(../img/logo.png);
+        width: 40%;
+        height: 18rem;
     }
 
     .description {
@@ -128,10 +134,12 @@
     }
 
     h2{
-        font-size: 6rem;
+        width: 60%;
+        height: 30rem;
     }
 
     .description {
+        margin-top: 4.2rem;
         font-size: 2rem;
     }
 

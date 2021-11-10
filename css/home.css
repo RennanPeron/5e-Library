@@ -12,15 +12,31 @@
     justify-content: center;
     height: 35vh;
     padding: 2.8rem 1.2rem 0;
-    background-image: linear-gradient(to top, var(--black), rgba(0,0,0,0.3), rgba(0,0,0,0.3), rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../img/capa-house.jpg");
+    background-image: linear-gradient(to top, var(--black), rgba(0,0,0,0.3), rgba(0,0,0,0.3), rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../img/capa-home.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 h2 {
-  font-size: 3.2rem;
+    text-indent: -3000px;
+    position: relative;
+    width: 40%;
+    height: 4rem;
+    background-image: url("../img/logoMobile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* 
+.title {
   width: 45%;  
 }
+
+.title img {
+    width: 60%;
+} */
 
 .description {
     width: 45%;
