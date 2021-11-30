@@ -1,4 +1,4 @@
-# 5e-Library
+# 5eFlix
 ## 📖 Sobre   
 Clone da página inicial da **Netflix** desenvolvido durante o Bootcamp **Impulso React Web Developer** da **Digital Innovation One** com um toque pessoal como desafio.
 
