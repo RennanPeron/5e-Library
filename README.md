@@ -13,7 +13,7 @@ Clone da página inicial da **Netflix** desenvolvido durante o Bootcamp **Impuls
 
 ## 🖥️ Demonstração
 
-Você pode acessar o projeto clicando [aqui](https://rennanperon.github.io/5e-Library/).
+Você pode acessar o projeto clicando [aqui](https://rennanperon.github.io/5eFlix/).
 
 ---
 
